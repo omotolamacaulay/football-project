@@ -1,0 +1,243 @@
+
+.home {
+  /* background-image: repeating-linear-gradient(-90deg, rgb(85, 12, 100), rgb(191, 107, 212)) ;
+  background-size: 320px 240px; */
+  background: linear-gradient(45deg, rgb(85,12,100) 1%,
+  rgb(191,107,212) 24%,rgb(191,107,212) 71%,rgb(85,12,100) 100%);
+}
+.wrapper{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500; 
+  
+}
+  
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  color:  rgb(85, 12, 100);
+  text-transform: uppercase;
+  display: block;
+  margin: 10px;
+  text-align: center;
+  padding: 20px 0;
+  line-height: 36px;
+  
+  
+}
+
+.game-name {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  color:  rgb(85, 12, 100);
+  text-transform: uppercase;
+  display: block;
+  margin: 10px;
+  margin-top: 100px;
+  text-align: center;
+  padding: 20px 0;
+  line-height: 36px;
+}
+
+.player{
+  display: block;
+  height: 30px;
+  width: calc(100% - 50px);
+  padding: 5px 10px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  color:  rgb(85, 12, 100);
+  border: 1px solid #444;
+}
+
+.button{
+  font-family: 'Raleway', sans-serif;
+  margin: 10px 10px;
+  line-height: 30px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: calc(100% - 30px);
+  color:  rgb(85, 12, 100);
+  border: 1px solid #444;
+}
+
+a {
+  text-decoration: none;
+}
+#start {
+  margin: 150px 10px 10px 10px;
+  line-height: 30px;
+  padding: 10px 50px;
+  border-radius: 5px;
+  width: calc(100% - 20px);
+  background-color: white;
+  font-weight: 700;
+  font-size: 20px;
+
+  
+}
+
+.form {
+  margin: 0 auto;
+}
+
+#add:hover {
+  background-color: forestgreen;
+  color: white;
+}
+
+#surrender:hover{
+  background-color: crimson;
+  color: white;
+}
+
+header {
+  /* background-color: #f3f3f3; */
+  width: 100%;
+  height: 80px;
+  
+}
+
+header .home-page {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  color:  rgb(85, 12, 100);
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.question {
+  width: 100%;  
+}
+
+
+.first-name{
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  margin: 10px auto ;
+  color:  rgb(85, 12, 100);  
+}
+
+table {
+  margin: 10px 10px;
+  padding: 5px;
+  width: calc(100% - 30px);
+  color:  rgb(85, 12, 100);
+}
+
+
+td {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 10px auto; 
+  
+}
+
+.message{
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  margin: 10px auto ;
+  line-height: 40px;
+  color:  rgb(85, 12, 100); 
+
+}
+
+@media only screen and (min-width: 1000px) {
+  header .home-page {
+    margin: 25px;
+    text-align: left;
+    padding: 0px 20px;
+    border-right: 3px solid rgb(85, 12, 100);
+    float: left;
+    color:  rgb(85, 12, 100);
+  }
+
+  
+
+  .question {
+    border-right: 1px solid rgb(85, 12, 100);
+    left: 0;
+    
+  }
+  
+  .answer {
+    border-left: 1px solid rgb(85, 12, 100);
+    right: 0;
+    
+  }
+  .buttons{
+    display: flex;
+    flex-flow: row;
+    /* width: 10%; */
+    justify-content: ;
+    
+    
+    
+    
+  }
+
+  .first-name{
+    text-align: center;    
+    margin: 30px 30px ; 
+    font-size: 70px;   
+  }
+  .player{
+    padding: 5px 5px;
+    margin: 10px 10px;   
+  }
+  .split {
+    height: 80%;
+    width: 50%;
+    position: fixed;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .form {
+    position: relative;
+    top: 230px;
+    
+  }
+  .message{
+    text-align: center;
+    
+    font-weight: 400;
+    font-size: 28px;
+    margin: 30px 50px ;
+    
+  }
+
+  .heading {
+    font-size: 30px;
+  }
+  
+  .game-name {
+    font-size: 45px;
+  }
+
+  #start {
+    margin-right: 50px ;
+    width: 250px;
+    float: right;
+  }
+  .player{
+    width: calc(100% - 30px);
+  }
+}
